@@ -1,0 +1,98 @@
+.MyAccount {
+  position: relative;
+  background-color: #f5f5f5;
+  padding: 34px 0;
+}
+
+.MyAccountinner {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.MyAccounthead {
+  margin: 0;
+  font-size: 32px;
+  color: black;
+}
+
+.li {
+  list-style: none;
+}
+
+.ss {
+  color: var(--color-black);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.co {
+  color: yellowgreen !important;
+}
+
+.shop {
+  max-width: 1080px;
+  width: 100%;
+  padding: 50px 0px;
+  margin: 0px auto;
+}
+
+.shopinner {
+  width: 100%;
+  display: flex;
+}
+
+.shopmain {
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 20px;
+}
+
+.nav {
+  /* float: left; */
+  margin: 0 20px 0 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nava {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  color: #999;
+  border: 1px solid #eaeaea;
+  text-align: center;
+}
+
+.lo {
+  border-color: #ff4545 !important;
+}
+
+.ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.ulli {
+  list-style: none;
+  margin-right: 6px;
+  color: #555;
+  letter-spacing: 0.6px;
+}
+
+.ss {
+  padding: 0px 15px;
+  /* opacity: 0; */
+  /* position: absolute; */
+  height: 34px;
+  font-size: 13px;
+  /* appearance: menulist-button; */
+  width: 228px;
+}

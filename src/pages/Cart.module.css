@@ -1,0 +1,484 @@
+/* MAIN PAGE */
+
+.cartPage {
+  width: 100%;
+  background: #fff;
+  color: #222;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+/* PAGE BANNER */
+
+.pageBanner {
+  width: 100%;
+  padding: 35px 0;
+  background: #f5f5f5;
+}
+
+.pageBanner .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pageBanner h1 {
+  margin: 0;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.breadcrumb a {
+  color: #777;
+  text-decoration: none;
+}
+
+.breadcrumb span {
+  color: #222;
+}
+
+/* CART CONTENT */
+
+.cartContent {
+  padding: 60px 0 90px;
+  min-height: 350px;
+}
+
+/* EMPTY CART */
+
+.emptyMessage {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 18px 20px;
+  margin-bottom: 38px;
+
+  border: 1px solid #b7baff;
+  color: #777;
+  font-size: 14px;
+}
+
+.infoIcon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 18px;
+  height: 18px;
+
+  color: #aeb4ff;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* RETURN TO SHOP */
+
+.returnButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 17px 25px;
+
+  background: #ff4747;
+  color: white;
+
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.returnButton:hover {
+  background: #e93a3a;
+}
+
+/* REMOVED PRODUCT MESSAGE */
+
+.removedMessage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 12px 20px;
+  margin-bottom: 25px;
+
+  border: 1px solid #ddd;
+  color: #777;
+  font-size: 15px;
+}
+
+.removedMessage button {
+  padding: 8px 22px;
+
+  background: #ff4747;
+  color: #fff;
+
+  border: none;
+  cursor: pointer;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.removedMessage button:hover {
+  background: #e93a3a;
+}
+
+/* TABLE */
+
+.tableWrapper {
+  width: 100%;
+  margin-bottom: 30px;
+  border: 1px solid #e5e5e5;
+}
+
+.cartTable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.cartTable thead {
+  background: #f7f7f7;
+}
+
+.cartTable th {
+  padding: 18px 12px;
+  border-bottom: 1px solid #e5e5e5;
+
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.cartTable td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 14px;
+}
+
+/* PRODUCT */
+
+.productCell {
+  min-width: 230px;
+  text-align: left;
+}
+
+.productCell img {
+  display: inline-block;
+  vertical-align: middle;
+
+  width: 65px;
+  height: 65px;
+
+  margin-right: 18px;
+
+  object-fit: contain;
+}
+
+.productCell span {
+  display: inline-block;
+  vertical-align: middle;
+
+  max-width: 180px;
+  overflow-wrap: anywhere;
+}
+
+/* REMOVE BUTTON */
+
+.removeItem {
+  width: 25px;
+  height: 25px;
+
+  border: 1px solid #ccc;
+  border-radius: 50%;
+
+  background: #fff;
+  color: #999;
+
+  font-size: 18px;
+  line-height: 20px;
+
+  cursor: pointer;
+}
+
+.removeItem:hover {
+  color: #ff4747;
+  border-color: #ff4747;
+}
+
+/* PRICE */
+
+.priceCell {
+  color: #57bf6d;
+  white-space: nowrap;
+}
+
+/* QUANTITY */
+
+.quantityControl {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #ddd;
+}
+
+.quantityControl button {
+  width: 34px;
+  height: 33px;
+
+  background: #fff;
+  border: none;
+
+  cursor: pointer;
+  color: #555;
+  font-size: 16px;
+}
+
+.quantityControl button:hover {
+  background: #f5f5f5;
+}
+
+.quantityControl span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 32px;
+  height: 33px;
+
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+/* COUPON AND UPDATE BUTTONS */
+
+.cartActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+
+  padding: 15px 12px;
+}
+
+.couponForm {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.couponForm input {
+  width: 170px;
+  height: 40px;
+  box-sizing: border-box;
+
+  padding: 10px;
+
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  outline: none;
+}
+
+.couponForm input:focus {
+  border-color: #999;
+}
+
+.couponForm button,
+.updateButton {
+  min-height: 40px;
+  padding: 0 18px;
+
+  border: none;
+  background: #ff4747;
+  color: #fff;
+
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  cursor: pointer;
+}
+
+.couponForm button:hover,
+.updateButton:hover {
+  background: #e93a3a;
+}
+
+.updateButton {
+  opacity: 0.8;
+}
+
+.couponMessage {
+  padding: 0 15px;
+  color: #777;
+  font-size: 13px;
+}
+
+/* CART TOTALS */
+
+.totalsWrapper {
+  width: 48%;
+  margin-left: auto;
+  border: 1px solid #e5e5e5;
+}
+
+.totalsWrapper h2 {
+  margin: 0;
+  padding: 17px;
+
+  background: #f7f7f7;
+  border-bottom: 1px solid #e5e5e5;
+
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 20px;
+  padding: 17px 10px;
+
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.totalRow span {
+  font-size: 15px;
+}
+
+.totalRow strong {
+  color: #57bf6d;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* CHECKOUT */
+
+.checkoutButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 18px 20px 20px;
+  padding: 15px;
+
+  background: #ff4747;
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.checkoutButton:hover {
+  background: #e93a3a;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+  .container {
+    width: 94%;
+  }
+
+  .tableWrapper {
+    overflow-x: auto;
+  }
+
+  .cartTable {
+    min-width: 750px;
+  }
+
+  .totalsWrapper {
+    width: 65%;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .pageBanner {
+    padding: 25px 0;
+  }
+
+  .pageBanner h1 {
+    font-size: 29px;
+  }
+
+  .breadcrumb {
+    font-size: 12px;
+  }
+
+  .cartContent {
+    padding: 30px 0 55px;
+  }
+
+  .emptyMessage {
+    align-items: flex-start;
+    font-size: 12px;
+    padding: 15px 12px;
+  }
+
+  .removedMessage {
+    align-items: flex-start;
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .removedMessage button {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .cartActions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .couponForm {
+    width: 100%;
+  }
+
+  .couponForm input {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .updateButton {
+    width: 100%;
+  }
+
+  .totalsWrapper {
+    width: 100%;
+  }
+}

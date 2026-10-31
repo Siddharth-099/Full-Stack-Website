@@ -1,0 +1,135 @@
+.MyAccount {
+  position: relative;
+  background-color: #f5f5f5;
+  padding: 34px 0;
+}
+
+.MyAccountinner {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.MyAccounthead {
+  margin: 0;
+  font-size: 32px;
+  color: black;
+}
+
+.li {
+  list-style: none;
+}
+
+.ss {
+  color: var(--color-black);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.co {
+  color: yellowgreen !important;
+}
+
+.MyAccountnext {
+  padding: 50px 0px;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nextinner {
+  width: 100%;
+}
+
+.myul {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.myul li {
+  list-style: none;
+}
+
+.myul li span {
+  font-size: 50px;
+  color: black;
+}
+
+.from {
+  width: 560px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #eaeaea;
+}
+
+.fromp {
+  margin: 0px 0px 20px;
+  padding: 3px 0px;
+  color: #4a4a4a;
+  font-size: 14px;
+}
+
+.fromps {
+  margin: 0px 0px;
+  padding: 3px 0px;
+  color: #4a4a4a;
+  font-size: 14px;
+}
+
+.labeldiv {
+  padding-bottom: 15px !important;
+  width: 100%;
+}
+
+.lko {
+  margin: 0 0 15px;
+  color: black;
+  font-size: 14px;
+}
+
+.fromp input {
+  width: 516.8px;
+  padding: 12px 15px 12px 15px;
+  border: 3px solid #f2f2f2;
+  background-color: #fcfcfc;
+}
+
+.check {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  line-height: 0;
+  width: 16px;
+  min-width: 16px;
+  height: 16px;
+  margin: -3px 10px 0 0;
+  outline: 0;
+  text-align: center;
+  vertical-align: middle;
+  clear: none;
+  cursor: pointer;
+}
+
+.checkbutton {
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding: 15px 20px 12px;
+  background-color: #ff4545;
+  color: white;
+  font-size: 12px;
+}
+
+.last {
+  line-height: 42px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.last a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+}

@@ -1,0 +1,158 @@
+.contact {
+  position: relative;
+  background-color: #f5f5f5;
+  padding: 34px 0;
+}
+
+.Contactinner {
+  max-width: 1080px;
+  margin: 0px auto;
+}
+
+.lkj {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lkj2 {
+  color: black;
+  margin: 0;
+}
+
+.li {
+  list-style: none;
+}
+
+.ss {
+  color: var(--color-black);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.co {
+  color: yellowgreen !important;
+}
+
+.contactinfo {
+  padding: 100px 0px;
+}
+
+.info1 {
+  display: flex;
+  position: relative;
+}
+
+.info2 {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.info3 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info4 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inhead {
+  width: 100%;
+}
+
+.h2 {
+  padding: 10px;
+  font-size: 23px;
+  margin: 0;
+  line-height: 1.4;
+  font-weight: 600;
+  width: 100%;
+}
+
+.infoinfo {
+  width: 100%;
+}
+
+.infoinfoinner {
+  padding: 10px;
+}
+
+.lo {
+  width: 100%;
+  display: flex;
+}
+
+.lo1 {
+  display: flex;
+  flex-shrink: 0;
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.lo1 span i {
+  color: #ff6e68 !important;
+  font-size: 20px;
+}
+
+.lo2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.h6 {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #333333;
+}
+
+.h62 {
+  color: #4a4a4a;
+}
+
+.right {
+  display: flex;
+}
+
+.right1 {
+  margin: 24px auto 0px;
+  width: 100%;
+}
+
+form {
+  width: 100%;
+}
+
+.oop {
+  width: 100%;
+}
+
+.oop1 {
+  padding: 10px 0px;
+}
+
+.oop11 {
+  width: 50%;
+}
+
+.oop12 {
+  width: 50%;
+}
+
+.olp {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input {
+  padding: 12px 15px;
+  width: 290px;
+}
